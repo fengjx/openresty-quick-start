@@ -1,0 +1,12 @@
+.idea
+.vscode
+logs/access.log
+logs/error.log
+logs/nginx.pid
+rockspec
+/proxy_temp/
+/scgi_temp/
+/uwsgi_temp/
+.un~
+nginx.pid
+deps
