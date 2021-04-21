@@ -20,12 +20,12 @@ OpenResty 项目模板，新项目可以 clone 下来修改
 $ make help
 Makefile cmd:
 
-    deps:				    安装依赖
-    start:				    启动服务（前台进程）
-    start-background:		启动服务（后台进程）
-    quit:				    停止服务
-    clean:				    清理项目（删除日志、临时文件和依赖库）
-    help:				    Makefile帮助
+    deps:				安装依赖
+    start:				启动服务（前台进程）
+    start-background:			启动服务（后台进程）
+    quit:				停止服务
+    clean:				清理项目（删除日志、临时文件和依赖库）
+    help:				Makefile帮助
 ```
 
 ## 快速开始
