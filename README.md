@@ -16,17 +16,16 @@ OpenResty 项目模板，新项目可以 clone 下来修改
 
 ## make cmd
 
-```
+```bash
 $ make help
-
 Makefile cmd:
 
-    deps:				安装依赖
-    start:				启动服务（前台进程）
-    start:				启动服务（后台进程）
-    start:				停止服务
-    start:				停止服务
-    help:				Makefile帮助
+    deps:				    安装依赖
+    start:				    启动服务（前台进程）
+    start-background:		启动服务（后台进程）
+    quit:				    停止服务
+    clean:				    清理项目（删除日志、临时文件和依赖库）
+    help:				    Makefile帮助
 ```
 
 ## 快速开始
@@ -35,13 +34,13 @@ Makefile cmd:
 # 下载项目模板
 $ git clone https://github.com/fengjx/openresty-quick-start.git
 
-# 删除 git 文件
-$ rm -rf .git
-
 # 修改项目名
 $ mv openresty-quick-start my-project
 
 $ cd my-project
+
+# 删除 git 文件
+$ rm -rf .git
 
 # 安装依赖
 $ make deps
